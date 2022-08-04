@@ -1,0 +1,24 @@
+{
+  "name": "compound-styles",
+  "version": "0.0.1",
+  "description": "A small design system for Compound properties",
+  "scripts": {
+    "css": "sass scss/main.scss css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compound-finance/compound-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/compound-finance/compound-styles/issues"
+  },
+  "homepage": "https://github.com/compound-finance/compound-styles#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.3"
+  }
+}

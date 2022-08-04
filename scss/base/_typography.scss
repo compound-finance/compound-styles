@@ -1,0 +1,443 @@
+@font-face {
+  font-family: "Haas Grot Disp R";
+  src: url("../public/fonts/NeueHaasGrotDispRound-55Roman.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Haas Grot Disp R";
+  src: url("../public/fonts/NeueHaasGrotDispRound-65Medium.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Haas Grot Text R";
+  src: url("../public/fonts/NeueHaasGrotTextRound-55Roman.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Haas Grot Text R";
+  src: url("../public/fonts/NeueHaasGrotTextRound-65Medium.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Haas Grot Text R";
+  src: url("../public/fonts/NeueHaasGrotTextRound-75Bold.otf");
+  font-style: bold;
+  font-weight: 700;
+}
+
+$heading-font-family--L0: "Haas Grot Disp R";
+$heading-font-family--L1: "Haas Grot Disp R";
+$heading-font-family--L2: "Haas Grot Disp R";
+$heading-font-family--L3: "Haas Grot Disp R";
+$heading-font-family--L4: "Haas Grot Disp R";
+
+$heading-font-size--L0: 2.5rem;
+$heading-font-size--L1: 2rem;
+$heading-font-size--L2: 1.5rem;
+$heading-font-size--L3: 1.3125rem;
+$heading-font-size--L4: 1.0625rem;
+
+$heading-font-weight--L0: 600;
+$heading-font-weight--L1: 600;
+$heading-font-weight--L2: 600;
+$heading-font-weight--L3: 600;
+$heading-font-weight--L4: 600;
+
+$heading-line-height--L0: 3.25rem;
+$heading-line-height--L1: 3.25rem;
+$heading-line-height--L2: 1.75rem;
+$heading-line-height--L3: 1.5rem;
+$heading-line-height--L4: 1.25rem;
+
+$heading-paragraph--L0: 0rem;
+$heading-paragraph--L1: 0rem;
+$heading-paragraph--L2: 0rem;
+$heading-paragraph--L3: 0rem;
+$heading-paragraph--L4: 0rem;
+
+$body-font-family--L0: "Haas Grot Text R";
+$body-font-family--L1: "Haas Grot Text R";
+$body-font-family--L2: "Haas Grot Text R";
+$body-font-family--L3: "Haas Grot Text R";
+$body-font-family--L4: "Haas Grot Text R";
+
+$body-font-size--L0: 0rem;
+$body-font-size--L1: 1.25rem;
+$body-font-size--L2: 1.0625rem;
+$body-font-size--L3: 0.9375rem;
+$body-font-size--L4: 0.8125rem;
+
+$body-font-weight--L0: normal;
+$body-font-weight--L1: 400;
+$body-font-weight--L2: 400;
+$body-font-weight--L3: 400;
+$body-font-weight--L4: 400;
+
+$body-line-height--L0: 0rem;
+$body-line-height--L1: 1.75rem;
+$body-line-height--L2: 1.5rem;
+$body-line-height--L3: 1.25rem;
+$body-line-height--L4: 1.125rem;
+
+$body-paragraph--L0: 0rem;
+$body-paragraph--L1: 1rem;
+$body-paragraph--L2: 0.75rem;
+$body-paragraph--L3: 0.5rem;
+$body-paragraph--L4: 0.5rem;
+
+$meta-font-family--L0: "Haas Grot Text R";
+$meta-font-family--L1: "Haas Grot Text R";
+$meta-font-family--L2: "Haas Grot Text R";
+$meta-font-family--L3: "Haas Grot Text R";
+$meta-font-family--L4: "Haas Grot Text R";
+
+$meta-font-size--L0: 0rem;
+$meta-font-size--L1: 0.8125rem;
+$meta-font-size--L2: 0.8125rem;
+$meta-font-size--L3: 0.685rem;
+$meta-font-size--L4: 0.685rem;
+
+$meta-font-weight--L0: normal;
+$meta-font-weight--L1: 500;
+$meta-font-weight--L2: 400;
+$meta-font-weight--L3: 500;
+$meta-font-weight--L4: 400;
+
+$meta-line-height--L0: 0rem;
+$meta-line-height--L1: 1.25rem;
+$meta-line-height--L2: 1.25rem;
+$meta-line-height--L3: 1rem;
+$meta-line-height--L4: 1rem;
+
+$meta-paragraph--L0: 0rem;
+$meta-paragraph--L1: 0.5rem;
+$meta-paragraph--L2: 0.5rem;
+$meta-paragraph--L3: 0.5rem;
+$meta-paragraph--L4: 0.5rem;
+
+$label-font-family--L0: "Haas Grot Text R";
+$label-font-family--L1: "Haas Grot Text R";
+$label-font-family--L2: "Haas Grot Text R";
+$label-font-family--L3: "Haas Grot Text R";
+$label-font-family--L4: "Haas Grot Text R";
+
+$label-font-size--L0: 0rem;
+$label-font-size--L1: 0.8125rem;
+$label-font-size--L2: 0.6875rem;
+$label-font-size--L3: 0rem;
+$label-font-size--L4: 0rem;
+
+$label-font-weight--L0: normal;
+$label-font-weight--L1: 500;
+$label-font-weight--L2: 500;
+$label-font-weight--L3: normal;
+$label-font-weight--L4: normal;
+
+$label-line-height--L0: 0rem;
+$label-line-height--L1: 1.125rem;
+$label-line-height--L2: 1rem;
+$label-line-height--L3: 0rem;
+$label-line-height--L4: 0rem;
+
+$label-paragraph--L0: 0rem;
+$label-paragraph--L1: 0rem;
+$label-paragraph--L2: 0rem;
+$label-paragraph--L3: 0rem;
+$label-paragraph--L4: 0rem;
+
+$label-font-family--secondary--L0: "Haas Grot Text R";
+$label-font-family--secondary--L1: "Haas Grot Text R";
+$label-font-family--secondary--L2: "Haas Grot Text R";
+$label-font-family--secondary--L3: "Haas Grot Text R";
+$label-font-family--secondary--L4: "Haas Grot Text R";
+
+$label-font-size--secondary--L0: 0rem;
+$label-font-size--secondary--L1: 0.75rem;
+$label-font-size--secondary--L2: 0.6875rem;
+$label-font-size--secondary--L3: 0rem;
+$label-font-size--secondary--L4: 0rem;
+
+$label-font-weight--secondary--L0: normal;
+$label-font-weight--secondary--L1: 400;
+$label-font-weight--secondary--L2: 400;
+$label-font-weight--secondary--L3: normal;
+$label-font-weight--secondary--L4: normal;
+
+$label-line-height--secondary--L0: 0rem;
+$label-line-height--secondary--L1: 1rem;
+$label-line-height--secondary--L2: 1rem;
+$label-line-height--secondary--L3: 0rem;
+$label-line-height--secondary--L4: 0rem;
+
+$label-paragraph--secondary--L0: 0rem;
+$label-paragraph--secondary--L1: 0rem;
+$label-paragraph--secondary--L2: 0rem;
+$label-paragraph--secondary--L3: 0rem;
+$label-paragraph--secondary--L4: 0rem;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  --heading-font-family: #{$heading-font-family--L1};
+  --heading-font-size: #{$heading-font-size--L1};
+  --heading-font-weight: #{$heading-font-weight--L1};
+  --heading-line-height: #{$heading-line-height--L1};
+  --heading-paragraph: #{$heading-paragraph--L1};
+
+  --body-font-family: #{$body-font-family--L1};
+  --body-font-size: #{$body-font-size--L1};
+  --body-font-weight: #{$body-font-weight--L1};
+  --body-line-height: #{$body-line-height--L1};
+  --body-paragraph: #{$body-paragraph--L1};
+
+  --meta-font-family: #{$meta-font-family--L1};
+  --meta-font-size: #{$meta-font-size--L1};
+  --meta-font-weight: #{$meta-font-weight--L1};
+  --meta-line-height: #{$meta-line-height--L1};
+  --meta-paragraph: #{$meta-paragraph--L1};
+
+  --label-font-family: #{$label-font-family--L1};
+  --label-font-size: #{$label-font-size--L1};
+  --label-font-weight: #{$label-font-weight--L1};
+  --label-line-height: #{$label-line-height--L1};
+  --label-paragraph: #{$label-paragraph--L1};
+
+  --label-font-family--secondary: #{$label-font-family--secondary--L1};
+  --label-font-size--secondary: #{$label-font-size--secondary--L1};
+  --label-font-weight--secondary: #{$label-font-weight--secondary--L1};
+  --label-line-height--secondary: #{$label-line-height--secondary--L1};
+  --label-paragraph--secondary: #{$label-paragraph--secondary--L1};
+}
+
+.L0 {
+  --heading-font-family: #{$heading-font-family--L0};
+  --heading-font-size: #{$heading-font-size--L0};
+  --heading-font-weight: #{$heading-font-weight--L0};
+  --heading-line-height: #{$heading-line-height--L0};
+  --heading-paragraph: #{$heading-paragraph--L0};
+
+  --body-font-family: #{$body-font-family--L0};
+  --body-font-size: #{$body-font-size--L0};
+  --body-font-weight: #{$body-font-weight--L0};
+  --body-line-height: #{$body-line-height--L0};
+  --body-paragraph: #{$body-paragraph--L0};
+
+  --meta-font-family: #{$meta-font-family--L0};
+  --meta-font-size: #{$meta-font-size--L0};
+  --meta-font-weight: #{$meta-font-weight--L0};
+  --meta-line-height: #{$meta-line-height--L0};
+  --meta-paragraph: #{$meta-paragraph--L0};
+
+  --label-font-family: #{$label-font-family--L0};
+  --label-font-size: #{$label-font-size--L0};
+  --label-font-weight: #{$label-font-weight--L0};
+  --label-line-height: #{$label-line-height--L0};
+  --label-paragraph: #{$label-paragraph--L0};
+
+  --label-font-family--secondary: #{$label-font-family--secondary--L0};
+  --label-font-size--secondary: #{$label-font-size--secondary--L0};
+  --label-font-weight--secondary: #{$label-font-weight--secondary--L0};
+  --label-line-height--secondary: #{$label-line-height--secondary--L0};
+  --label-paragraph--secondary: #{$label-paragraph--secondary--L0};
+}
+
+.L1 {
+  --heading-font-family: #{$heading-font-family--L1};
+  --heading-font-size: #{$heading-font-size--L1};
+  --heading-font-weight: #{$heading-font-weight--L1};
+  --heading-line-height: #{$heading-line-height--L1};
+  --heading-paragraph: #{$heading-paragraph--L1};
+
+  --body-font-family: #{$body-font-family--L1};
+  --body-font-size: #{$body-font-size--L1};
+  --body-font-weight: #{$body-font-weight--L1};
+  --body-line-height: #{$body-line-height--L1};
+  --body-paragraph: #{$body-paragraph--L1};
+
+  --meta-font-family: #{$meta-font-family--L1};
+  --meta-font-size: #{$meta-font-size--L1};
+  --meta-font-weight: #{$meta-font-weight--L1};
+  --meta-line-height: #{$meta-line-height--L1};
+  --meta-paragraph: #{$meta-paragraph--L1};
+
+  --label-font-family: #{$label-font-family--L1};
+  --label-font-size: #{$label-font-size--L1};
+  --label-font-weight: #{$label-font-weight--L1};
+  --label-line-height: #{$label-line-height--L1};
+  --label-paragraph: #{$label-paragraph--L1};
+  
+  --label-font-family--secondary: #{$label-font-family--secondary--L1};
+  --label-font-size--secondary: #{$label-font-size--secondary--L1};
+  --label-font-weight--secondary: #{$label-font-weight--secondary--L1};
+  --label-line-height--secondary: #{$label-line-height--secondary--L1};
+  --label-paragraph--secondary: #{$label-paragraph--secondary--L1};
+}
+
+.L2 {
+  --heading-font-family: #{$heading-font-family--L2};
+  --heading-font-size: #{$heading-font-size--L2};
+  --heading-font-weight: #{$heading-font-weight--L2};
+  --heading-line-height: #{$heading-line-height--L2};
+  --heading-paragraph: #{$heading-paragraph--L2};
+
+  --body-font-family: #{$body-font-family--L2};
+  --body-font-size: #{$body-font-size--L2};
+  --body-font-weight: #{$body-font-weight--L2};
+  --body-line-height: #{$body-line-height--L2};
+  --body-paragraph: #{$body-paragraph--L2};
+
+  --meta-font-family: #{$meta-font-family--L2};
+  --meta-font-size: #{$meta-font-size--L2};
+  --meta-font-weight: #{$meta-font-weight--L2};
+  --meta-line-height: #{$meta-line-height--L2};
+  --meta-paragraph: #{$meta-paragraph--L2};
+
+  --label-font-family: #{$label-font-family--L2};
+  --label-font-size: #{$label-font-size--L2};
+  --label-font-weight: #{$label-font-weight--L2};
+  --label-line-height: #{$label-line-height--L2};
+  --label-paragraph: #{$label-paragraph--L2};
+
+  --label-font-family--secondary: #{$label-font-family--secondary--L2};
+  --label-font-size--secondary: #{$label-font-size--secondary--L2};
+  --label-font-weight--secondary: #{$label-font-weight--secondary--L2};
+  --label-line-height--secondary: #{$label-line-height--secondary--L2};
+  --label-paragraph--secondary: #{$label-paragraph--secondary--L2};
+}
+
+.L3 {
+  --heading-font-family: #{$heading-font-family--L3};
+  --heading-font-size: #{$heading-font-size--L3};
+  --heading-font-weight: #{$heading-font-weight--L3};
+  --heading-line-height: #{$heading-line-height--L3};
+  --heading-paragraph: #{$heading-paragraph--L3};
+
+  --body-font-family: #{$body-font-family--L3};
+  --body-font-size: #{$body-font-size--L3};
+  --body-font-weight: #{$body-font-weight--L3};
+  --body-line-height: #{$body-line-height--L3};
+  --body-paragraph: #{$body-paragraph--L3};
+
+  --meta-font-family: #{$meta-font-family--L3};
+  --meta-font-size: #{$meta-font-size--L3};
+  --meta-font-weight: #{$meta-font-weight--L3};
+  --meta-line-height: #{$meta-line-height--L3};
+  --meta-paragraph: #{$meta-paragraph--L3};
+
+  --label-font-family: #{$label-font-family--L3};
+  --label-font-size: #{$label-font-size--L3};
+  --label-font-weight: #{$label-font-weight--L3};
+  --label-line-height: #{$label-line-height--L3};
+  --label-paragraph: #{$label-paragraph--L3};
+
+  --label-font-family--secondary: #{$label-font-family--secondary--L3};
+  --label-font-size--secondary: #{$label-font-size--secondary--L3};
+  --label-font-weight--secondary: #{$label-font-weight--secondary--L3};
+  --label-line-height--secondary: #{$label-line-height--secondary--L3};
+  --label-paragraph--secondary: #{$label-paragraph--secondary--L3};
+}
+
+.L4 {
+  --heading-font-family: #{$heading-font-family--L4};
+  --heading-font-size: #{$heading-font-size--L4};
+  --heading-font-weight: #{$heading-font-weight--L4};
+  --heading-line-height: #{$heading-line-height--L4};
+  --heading-paragraph: #{$heading-paragraph--L4};
+
+  --body-font-family: #{$body-font-family--L4};
+  --body-font-size: #{$body-font-size--L4};
+  --body-font-weight: #{$body-font-weight--L4};
+  --body-line-height: #{$body-line-height--L4};
+  --body-paragraph: #{$body-paragraph--L4};
+
+  --meta-font-family: #{$meta-font-family--L4};
+  --meta-font-size: #{$meta-font-size--L4};
+  --meta-font-weight: #{$meta-font-weight--L4};
+  --meta-line-height: #{$meta-line-height--L4};
+  --meta-paragraph: #{$meta-paragraph--L4};
+
+  --label-font-family: #{$label-font-family--L4};
+  --label-font-size: #{$label-font-size--L4};
+  --label-font-weight: #{$label-font-weight--L4};
+  --label-line-height: #{$label-line-height--L4};
+  --label-paragraph: #{$label-paragraph--L4};
+
+  --label-font-family--secondary: #{$label-font-family--secondary--L4};
+  --label-font-size--secondary: #{$label-font-size--secondary--L4};
+  --label-font-weight--secondary: #{$label-font-weight--secondary--L4};
+  --label-line-height--secondary: #{$label-line-height--secondary--L4};
+  --label-paragraph--secondary: #{$label-paragraph--secondary--L4};
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.heading {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
+
+  & + & {
+    margin-top: var(--heading-paragraph);
+  }
+}
+
+div,
+p,
+.body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+
+  & + & {
+    margin-top: var(--body-paragraph);
+  }
+}
+
+.meta {
+  font-family: var(--meta-font-family);
+  font-size: var(--meta-font-size);
+  font-weight: var(--meta-font-weight);
+  line-height: var(--meta-line-height);
+
+  & + & {
+    margin-top: var(--meta-paragraph);
+  }
+}
+
+label,
+.label {
+  font-family: var(--label-font-family);
+  font-size: var(--label-font-size);
+  font-weight: var(--label-font-weight);
+  line-height: var(--label-line-height);
+
+  & + & {
+    margin-top: var(--label-paragraph);
+  }
+
+  &--secondary {
+    font-family: var(--label-font-family--secondary);
+    font-size: var(--label-font-size--secondary);
+    font-weight: var(--label-font-weight--secondary);
+    line-height: var(--label-line-height--secondary);
+
+    & + & {
+      margin-top: var(--label-paragraph--secondary);
+    }
+  }
+}
