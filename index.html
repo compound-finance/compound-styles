@@ -6,76 +6,358 @@
     <!-- Stylesheets -->
     <link href="css/main.css" rel="stylesheet" />
   </head>
-  <body class="L1">
-    <div class="L0">
-      <h1 class="heading">Compound aims to become the center of all trade for the open financial system.</h1>
-      <p class="body">Compound aims to become the center of all trade for the open financial system.</p>
-      <p class="body">Compound is a protocol built for developers to unlock never before seen financial products.</p>
-      <p class="meta">© 2019 Compound Labs, LLC.</p>
-      <p class="meta">
-        Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers. Terms
-        and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound Treasury accounts
-        are not bank accounts.
-      </p>
-      <label class="label">Primary Label</label>
-      <br />
-      <label class="label label--secondary">Primary Label</label>
-    </div>
-    <div class="L1">
-      <h1 class="heading">Compound aims to become the center of all trade for the open financial system.</h1>
-      <p class="body">Compound aims to become the center of all trade for the open financial system.</p>
-      <p class="body">Compound is a protocol built for developers to unlock never before seen financial products.</p>
-      <p class="meta">© 2019 Compound Labs, LLC.</p>
-      <p class="meta">
-        Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers. Terms
-        and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound Treasury accounts
-        are not bank accounts.
-      </p>
-      <label class="label">Primary Label</label>
-      <br />
-      <label class="label label--secondary">Primary Label</label>
-    </div>
-    <div class="L2">
-      <h1 class="heading">Compound aims to become the center of all trade for the open financial system.</h1>
-      <p class="body">Compound aims to become the center of all trade for the open financial system.</p>
-      <p class="body">Compound is a protocol built for developers to unlock never before seen financial products.</p>
-      <p class="meta">© 2019 Compound Labs, LLC.</p>
-      <p class="meta">
-        Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers. Terms
-        and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound Treasury accounts
-        are not bank accounts.
-      </p>
-      <label class="label">Primary Label</label>
-      <br />
-      <label class="label label--secondary">Primary Label</label>
-    </div>
-    <div class="L3">
-      <h1 class="heading">Compound aims to become the center of all trade for the open financial system.</h1>
-      <p class="body">Compound aims to become the center of all trade for the open financial system.</p>
-      <p class="body">Compound is a protocol built for developers to unlock never before seen financial products.</p>
-      <p class="meta">© 2019 Compound Labs, LLC.</p>
-      <p class="meta">
-        Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers. Terms
-        and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound Treasury accounts
-        are not bank accounts.
-      </p>
-      <label class="label">Primary Label</label>
-      <br />
-      <label class="label label--secondary">Primary Label</label>
-    </div>
-    <div class="L4">
-      <h1 class="heading">Compound aims to become the center of all trade for the open financial system.</h1>
-      <p class="body">Compound aims to become the center of all trade for the open financial system.</p>
-      <p class="body">Compound is a protocol built for developers to unlock never before seen financial products.</p>
-      <p class="meta">© 2019 Compound Labs, LLC.</p>
-      <p class="meta">
-        Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers. Terms
-        and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound Treasury accounts
-        are not bank accounts.
-      </p>
-      <label class="label">Primary Label</label>
-      <br />
-      <label class="label label--secondary">Primary Label</label>
+  <style>
+    .page-container {
+      max-width: 1500px;
+      padding: 48px;
+      margin: auto;
+    }
+    .primary-text-color {
+      color: #070a0e;
+    }
+    .secondary-text-color {
+      color: #657786;
+    }
+    .tertiary-text-color {
+      color: #aab8c1;
+    }
+    .header-section {
+      margin-bottom: 64px;
+    }
+    .level-section {
+      display: flex;
+    }
+    .section-head {
+      width: 300px;
+      flex-shrink: 0;
+      margin-right: 48px;
+    }
+    .section-body {
+      flex-grow: 1;
+    }
+    .jumbo-header {
+      font-size: 50px;
+    }
+    .level-name {
+      width: 180px;
+      border-top: 1px solid black;
+      padding-top: 12px;
+    }
+    .level-item {
+      display: flex;
+      margin-bottom: 48px;
+    }
+    .level-item__info {
+      width: 270px;
+      color: #657786;
+    }
+    .level-item__example {
+      flex: 1;
+    }
+  </style>
+  <body>
+    <div class="page-container L2">
+      <div class="header-section">
+        <div class="meta tertiary-text-color" style="margin-bottom: 12px;">COMPOUND DESIGN SYSTEM</div>
+        <div class="level-section">
+          <div class="section-head">
+            <div class="L0">
+              <h1 class="heading jumbo-header">Typography</h1>
+            </div>
+          </div>
+          <div class="section-body">
+            <p class="meta secondary-text-color">
+              The CDS typographic system consists of multiple levels of pre-paired text classes, optimized for specific
+              usages. While classes can be mixed and matched freely across levels, pairing within the same level
+              maximizes visual harmony.
+            </p>
+            <p class="meta secondary-text-color"><b>1 rem = 16 pt</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="level-section">
+        <div class="section-head">
+          <h3 class="header level-name">L0</h3>
+        </div>
+        <div class="section-body">
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Heading 0</b> Emphasized</div>
+              <div class="meta">Haas Grotesk Display 65 Medium</div>
+              <div class="meta">Cap: 44 pt (2.75 rem)</div>
+              <div class="meta">Line: 52 pt (3.25 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L0">
+              <h2 class="heading">Compound aims to become the center of all trade for the open financial system.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="level-section">
+        <div class="section-head">
+          <h3 class="header level-name">L1</h3>
+        </div>
+        <div class="section-body">
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Heading 1</b> Emphasized</div>
+              <div class="meta">Haas Grotesk Display 65 Medium</div>
+              <div class="meta">Cap: 32 pt (2 rem)</div>
+              <div class="meta">Line: 36 pt (3.25 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L1">
+              <h2 class="heading">Compound aims to become the center of all trade for the open financial system.</h2>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Heading 1</b></div>
+              <div class="meta">Haas Grotesk Display 55 Roman</div>
+              <div class="meta">Cap: 32 pt (2 rem)</div>
+              <div class="meta">Line: 36 pt (3.25 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L1">
+              <h2 class="heading">Compound aims to become the center of all trade for the open financial system.</h2>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Body 1</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 20 pt (1.25 rem)</div>
+              <div class="meta">Line: 28 pt (1.75 rem)</div>
+              <div class="meta">Para: 16 pt (1 rem)</div>
+            </div>
+            <div class="level-item__example L1">
+              <p class="body">Compound aims to become the center of all trade for the open financial system.</p>
+              <p class="body">
+                Compound is a protocol built for developers to unlock never before seen financial products.
+              </p>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Meta 1</b></div>
+              <div class="meta">Haas Grotesk Text 65 Medium</div>
+              <div class="meta">Cap: 13 pt (0.8125)</div>
+              <div class="meta">Line: 20 pt (1.25 rem)</div>
+              <div class="meta">Para: 8 pt (0.5 rem)</div>
+            </div>
+            <div class="level-item__example L1">
+              <p class="meta">© 2019 Compound Labs, LLC.</p>
+              <p class="meta">
+                Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers.
+                Terms and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound
+                Treasury accounts are not bank accounts.
+              </p>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Label 1 Primary</b></div>
+              <div class="meta">Haas Grotesk Text 65 Medium</div>
+              <div class="meta">Cap: 13 pt (0.8125 rem)</div>
+              <div class="meta">Line: 18 pt (1.125 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L1">
+              <label class="label">Primary Label</label>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Label 1 Secondary</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 12 pt (0.75 rem)</div>
+              <div class="meta">Line: 16 pt (1 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L1">
+              <label class="label--secondary">Secondary Label</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="level-section">
+        <div class="section-head">
+          <h3 class="header level-name">L2</h3>
+        </div>
+        <div class="section-body">
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Heading 2</b> Emphasized</div>
+              <div class="meta">Haas Grotesk Display 65 Medium</div>
+              <div class="meta">Cap: 24 pt (1.5 rem)</div>
+              <div class="meta">Line: 28 pt (1.75 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L2">
+              <h2 class="heading">Compound aims to become the center of all trade for the open financial system.</h2>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Body 2</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 17 pt (1.0625 rem)</div>
+              <div class="meta">Line: 24 (1.5 rem)</div>
+              <div class="meta">Para: 12 pt (0.75 rem)</div>
+            </div>
+            <div class="level-item__example L2">
+              <p class="body">
+                Compound aims to become the center of all trade for the open financial system. Compound is a protocol
+                built for developers to unlock never before seen financial products.
+              </p>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Meta 2</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 13 pt (0.8125 rem)</div>
+              <div class="meta">Line: 20 pt (1.25 rem)</div>
+              <div class="meta">Para: 8 pt (0.5 rem)</div>
+            </div>
+            <div class="level-item__example L2">
+              <p class="meta">© 2019 Compound Labs, LLC.</p>
+              <p class="meta">
+                Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers.
+                Terms and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound
+                Treasury accounts are not bank accounts.
+              </p>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Label 2 Primary</b></div>
+              <div class="meta">Haas Grotesk Text 65 Medium</div>
+              <div class="meta">Cap: 11 pt (0.6875 rem)</div>
+              <div class="meta">Line: 16 pt (1 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L2">
+              <label class="label">Primary Label</label>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Label 2 Secondary</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 11 pt (0.6875 rem)</div>
+              <div class="meta">Line: 16 pt (1 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L2">
+              <label class="label--secondary">Secondary Label</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="level-section">
+        <div class="section-head">
+          <h3 class="header level-name">L3</h3>
+        </div>
+        <div class="section-body">
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Heading 3</b> Emphasized</div>
+              <div class="meta">Haas Grotesk Display 65 Medium</div>
+              <div class="meta">Cap: 21 pt (1.3125 rem)</div>
+              <div class="meta">Line: 24 pt (1.5 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L3">
+              <h2 class="heading">Compound aims to become the center of all trade for the open financial system.</h2>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Body 3</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 15 pt (0.9375 rem)</div>
+              <div class="meta">Line: 20 pt (1.25 rem)</div>
+              <div class="meta">Para: 8 pt (0.5 rem)</div>
+            </div>
+            <div class="level-item__example L3">
+              <p class="body">
+                Compound aims to become the center of all trade for the open financial system. Compound is a protocol
+                built for developers to unlock never before seen financial products.
+              </p>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Meta 3</b></div>
+              <div class="meta">Haas Grotesk Text 65 Medium</div>
+              <div class="meta">Cap: 11 pt (0.685 rem)</div>
+              <div class="meta">Line: 16 pt (1 rem)</div>
+              <div class="meta">Para: 8 pt (0.5 rem)</div>
+            </div>
+            <div class="level-item__example L3">
+              <p class="meta">© 2019 Compound Labs, LLC.</p>
+              <p class="meta">
+                Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers.
+                Terms and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound
+                Treasury accounts are not bank accounts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="level-section">
+        <div class="section-head">
+          <h3 class="header level-name">L4</h3>
+        </div>
+        <div class="section-body">
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Heading 4</b> Emphasized</div>
+              <div class="meta">Haas Grotesk Display 65 Medium</div>
+              <div class="meta">Cap: 17 pt (1.0625 rem)</div>
+              <div class="meta">Line: 20 pt (1.25 rem)</div>
+              <div class="meta">Para: 0</div>
+            </div>
+            <div class="level-item__example L4">
+              <h2 class="heading">Compound aims to become the center of all trade for the open financial system.</h2>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Body 4</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 13 pt (0.8125 rem)</div>
+              <div class="meta">Line: 18 pt (1.125 rem)</div>
+              <div class="meta">Para: 8 pt (0.5 rem)</div>
+            </div>
+            <div class="level-item__example L4">
+              <p class="body">Compound aims to become the center of all trade for the open financial system.</p>
+              <p class="body">
+                Compound is a protocol built for developers to unlock never before seen financial products.
+              </p>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="level-item__info">
+              <div class="meta"><b>Meta 4</b></div>
+              <div class="meta">Haas Grotesk Text 55 Roman</div>
+              <div class="meta">Cap: 11 pt (0.685 rem)</div>
+              <div class="meta">Line: 16 pt (1 rem)</div>
+              <div class="meta">Para: 8 pt (0.5 rem)</div>
+            </div>
+            <div class="level-item__example L4">
+              <p class="meta">© 2019 Compound Labs, LLC.</p>
+              <p class="meta">
+                Compound Treasury accounts are offered by Compound Prime, LLC and may not be available to all customers.
+                Terms and conditions apply and are subject to change. Compound Prime, LLC is not a bank and Compound
+                Treasury accounts are not bank accounts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
