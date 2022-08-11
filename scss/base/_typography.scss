@@ -16,14 +16,14 @@
   font-family: "Haas Grot Text R";
   src: url("/fonts/NeueHaasGrotTextRound-55Roman.otf");
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Haas Grot Text R";
   src: url("/fonts/NeueHaasGrotTextRound-65Medium.otf");
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @font-face {
@@ -275,7 +275,7 @@ body {
   --label-font-weight: #{$label-font-weight--L1};
   --label-line-height: #{$label-line-height--L1};
   --label-paragraph: #{$label-paragraph--L1};
-  
+
   --label-font-family--secondary: #{$label-font-family--secondary--L1};
   --label-font-size--secondary: #{$label-font-size--secondary--L1};
   --label-font-weight--secondary: #{$label-font-weight--secondary--L1};
@@ -401,10 +401,10 @@ p,
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
+}
 
-  & + & {
-    margin-top: var(--body-paragraph);
-  }
+.body + .body {
+  margin-top: var(--body-paragraph);
 }
 
 .meta {
