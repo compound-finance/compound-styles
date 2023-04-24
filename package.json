@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/compound-finance/compound-styles.git"
   },
+  "main" : "index.ts",
   "author": "",
   "license": "ISC",
   "bugs": {
