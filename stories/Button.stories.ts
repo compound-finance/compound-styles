@@ -1,36 +1,27 @@
 import { createButton } from './Button';
 
-// More on how to set up stories at: https://storybook.js.org/docs/html/writing-stories/introduction
 export default {
   title: 'Example/Button',
   tags: ['autodocs'],
-  render: ({ label, ...args }) => {
+  render: ({ size, color, label, onClick }) => {
     // You can either use a function to create DOM elements or use a plain html string!
     // return `<div>${label}</div>`;
-    return createButton({ label, ...args });
+    return createButton({ size, color, label, onClick });
   },
   argTypes: {
-    backgroundColor: { control: 'color' },
-    label: { control: 'text' },
-    onClick: { action: 'onClick' },
-    primary: { control: 'boolean' },
     size: {
       control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
+      options: ['small', 'large', 'x-large'],
     },
+    color: { control: 'color' },
+    label: { control: 'text' },
+    onClick: { action: 'onClick' },
   },
 };
 
-// More on writing stories with args: https://storybook.js.org/docs/html/writing-stories/args
-export const Primary = {
+export const Small = {
   args: {
-    primary: true,
-    label: 'Button',
-  },
-};
-
-export const Secondary = {
-  args: {
+    size: 'small',
     label: 'Button',
   },
 };
@@ -42,9 +33,12 @@ export const Large = {
   },
 };
 
-export const Small = {
+export const XLarge = {
   args: {
-    size: 'small',
+    size: 'x-large',
     label: 'Button',
   },
 };
+
+
+
