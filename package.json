@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/compound-finance/compound-styles.git"
   },
-  "main" : "index.ts",
+  "main": "index.ts",
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -30,10 +30,12 @@
     "@storybook/html": "^7.0.7",
     "@storybook/html-webpack5": "^7.0.7",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "file-loader": "^6.2.0",
     "nodemon": "^2.0.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.54.3"
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2"
   },
   "dependencies": {
     "storybook": "^7.0.7"
