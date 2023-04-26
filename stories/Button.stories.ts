@@ -1,10 +1,17 @@
 import { createButton } from './Button';
 
+enum ButtonSize {
+  Small = 'small',
+  Medium = 'medium',
+  Large = 'large',
+  XLarge = 'x-large',
+}
+
 export default {
   title: 'Example/Button',
   tags: ['autodocs'],
   render: ({ size, color, label, onClick }) => {
-    // You can either use a function to create DOM elements or use a plain html string!
+    // alternatively, can use plain HTML string to return element
     // return `<div>${label}</div>`;
     return createButton({ size, color, label, onClick });
   },

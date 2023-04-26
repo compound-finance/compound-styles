@@ -1,1 +1,1 @@
-export { createButton as Button } from "./stories/Button"
+export { createButton } from "./stories/Button"
