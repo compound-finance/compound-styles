@@ -123,7 +123,7 @@ $body-paragraph--L2: 0.75rem;
 $body-paragraph--L3: 0.5rem;
 $body-paragraph--L4: 0.5rem;
 
-$body-font-weight--emphasized: 500;
+$body-font-weight--emphasized--L4: 500;
 
 $body-font-family--link--L0: "Haas Grot Text R";
 $body-font-family--link--L1: "Haas Grot Text R";
@@ -487,6 +487,8 @@ body {
   --body-font-weight: #{$body-font-weight--L4};
   --body-line-height: #{$body-line-height--L4};
   --body-paragraph: #{$body-paragraph--L4};
+
+  --body-font-weight--emphasized: #{$body-font-weight--emphasized--L4};
 
   --body-font-family--link: #{$body-font-family--link--L4};
   --body-font-size--link: #{$body-font-size--link--L4};
