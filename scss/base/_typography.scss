@@ -547,6 +547,10 @@ p,
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
 
+  &--emphasized {
+    font-weight: var(--body-font-weight--emphasized);
+  }
+
   &--link {
     font-family: var(--body-font-family--link);
     font-size: var(--body-font-size--link);
