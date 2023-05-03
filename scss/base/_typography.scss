@@ -123,6 +123,10 @@ $body-paragraph--L2: 0.75rem;
 $body-paragraph--L3: 0.5rem;
 $body-paragraph--L4: 0.5rem;
 
+$body-font-weight--emphasized--L0: 500;
+$body-font-weight--emphasized--L1: 500;
+$body-font-weight--emphasized--L2: 500;
+$body-font-weight--emphasized--L3: 500;
 $body-font-weight--emphasized--L4: 500;
 
 $body-font-family--link--L0: "Haas Grot Text R";
@@ -268,6 +272,8 @@ body {
   --body-line-height: #{$body-line-height--L1};
   --body-paragraph: #{$body-paragraph--L1};
 
+  --body-font-weight--emphasized: #{$heading-font-weight--emphasized--L1};
+ 
   --body-font-family--link: #{$body-font-family--link--L1};
   --body-font-size--link: #{$body-font-size--link--L1};
   --body-font-weight--link: #{$body-font-weight--link--L1};
@@ -311,6 +317,8 @@ body {
   --body-font-weight: #{$body-font-weight--L0};
   --body-line-height: #{$body-line-height--L0};
   --body-paragraph: #{$body-paragraph--L0};
+
+  --body-font-weight--emphasized: #{$body-font-weight--emphasized--L0};
 
   --body-font-family--link: #{$body-font-family--link--L0};
   --body-font-size--link: #{$body-font-size--link--L0};
@@ -356,6 +364,8 @@ body {
   --body-line-height: #{$body-line-height--L1};
   --body-paragraph: #{$body-paragraph--L1};
 
+  --body-font-weight--emphasized: #{$body-font-weight--emphasized--L1};
+
   --body-font-family--link: #{$body-font-family--link--L1};
   --body-font-size--link: #{$body-font-size--link--L1};
   --body-font-weight--link: #{$body-font-weight--link--L1};
@@ -400,6 +410,8 @@ body {
   --body-line-height: #{$body-line-height--L2};
   --body-paragraph: #{$body-paragraph--L2};
 
+  --body-font-weight--emphasized: #{$body-font-weight--emphasized--L2};
+
   --body-font-family--link: #{$body-font-family--link--L2};
   --body-font-size--link: #{$body-font-size--link--L2};
   --body-font-weight--link: #{$body-font-weight--link--L2};
@@ -443,6 +455,8 @@ body {
   --body-font-weight: #{$body-font-weight--L3};
   --body-line-height: #{$body-line-height--L3};
   --body-paragraph: #{$body-paragraph--L3};
+
+  --body-font-weight--emphasized: #{$body-font-weight--emphasized--L3};
 
   --body-font-family--link: #{$body-font-family--link--L3};
   --body-font-size--link: #{$body-font-size--link--L3};
