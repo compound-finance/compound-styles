@@ -1,7 +1,5 @@
 import { createButton, ButtonSize } from './Button';
 
-
-
 export default {
   title: 'Example/Button',
   tags: ['autodocs'],
