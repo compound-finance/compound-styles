@@ -1,1 +1,2 @@
-export { createButton as Button, ButtonProps } from "./stories/Button"
+export { createButton as Button } from "./stories/Button"
+export { ButtonSize, ButtonProps } from "./stories/Button"
