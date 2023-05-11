@@ -7,7 +7,7 @@ export enum ButtonSize {
   XLarge = 'x-large',
 }
 
-export interface ButtonProps {
+export type ButtonProps = {
   size: ButtonSize;
   label: string;
   color?: string;
