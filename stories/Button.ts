@@ -25,6 +25,6 @@ export const createButton = ({
   btn.innerText = label;
   btn.addEventListener('click', onClick);
 
-  btn.className = ['button', `button--${size}`, color && `button--${color}`].join(' ');
+  btn.className = ['styled-button', `styled-button--${size}`, color && `styled-button--${color}`].join(' ');
   return btn;
 };

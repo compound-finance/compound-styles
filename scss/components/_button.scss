@@ -1,7 +1,7 @@
 @use '../abstracts/variables' as *;
 
 button,
-.button {
+.styled-button {
   align-items: center;
   background-color: #{$neutral--80};
   border: 0.5px solid #{$neutral--80};
