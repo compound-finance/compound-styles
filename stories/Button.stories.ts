@@ -1,11 +1,6 @@
-import { createButton } from './Button';
+import { createButton, ButtonSize } from './Button';
 
-enum ButtonSize {
-  Small = 'small',
-  Medium = 'medium',
-  Large = 'large',
-  XLarge = 'x-large',
-}
+
 
 export default {
   title: 'Example/Button',
@@ -18,7 +13,7 @@ export default {
   argTypes: {
     size: {
       control: { type: 'select' },
-      options: ['small', 'large', 'x-large'],
+      options: [ButtonSize.Small, ButtonSize.Medium, ButtonSize.Large, ButtonSize.XLarge],
     },
     color: { control: 'color' },
     label: { control: 'text' },
@@ -28,21 +23,28 @@ export default {
 
 export const Small = {
   args: {
-    size: 'small',
+    size: ButtonSize.Small,
+    label: 'Button',
+  },
+};
+
+export const Medium = {
+  args: {
+    size: ButtonSize.Medium,
     label: 'Button',
   },
 };
 
 export const Large = {
   args: {
-    size: 'large',
+    size: ButtonSize.Large,
     label: 'Button',
   },
 };
 
 export const XLarge = {
   args: {
-    size: 'x-large',
+    size: ButtonSize.XLarge,
     label: 'Button',
   },
 };
