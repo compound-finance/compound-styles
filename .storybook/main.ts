@@ -26,7 +26,13 @@ const config = {
         "sass-loader"
       ],
       include: path.resolve(__dirname, '../'),
-      
+    }, {
+      test: /\.elm$/,
+      exclude: [/elm-stuff/, /node_modules/],
+      loader: 'elm-webpack-loader',
+      options: {
+        debug: true,
+      }
     });
 
     config.module.rules.push({
