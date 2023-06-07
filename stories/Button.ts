@@ -28,3 +28,18 @@ export const createButton = ({
   btn.className = ['styled-button', `styled-button--${size}`, color && `styled-button--${color}`].join(' ');
   return btn;
 };
+
+class ElmButton extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' });
+  }
+
+  connectedCallback() {
+    const { size, color, label, onClick } = this.getAttribute('props');
+    const btn = createButton({ size, color, label, onClick });
+    this.shadowRoot.appendChild(btn);
+  }
+}
+
+customElements.define('elm-button', ElmButton);
