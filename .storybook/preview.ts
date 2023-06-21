@@ -1,6 +1,6 @@
 import '../scss/main.scss';
 
-/** @type { import('@storybook/html').Preview } */
+/** @type { import('@storybook/web-components').Preview } */
 
 const preview = {
   parameters: {

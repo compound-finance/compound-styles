@@ -1,45 +1,46 @@
 import '../scss/main.scss';
 
-export enum ButtonSize {
-  Small = 'small',
-  Medium = 'medium',
-  Large = 'large',
-  XLarge = 'x-large',
-}
+class WebButton extends HTMLElement {
+  // Observe the 'label', 'size', and 'color' attributes
+  static get observedAttributes() {
+    return ['label', 'size', 'color'];
+  }
 
-export type ButtonProps = {
-  size: ButtonSize;
-  label: string;
-  color?: string;
-  onClick: () => void;
-}
-
-export const createButton = ({
-  size,
-  color = "",
-  label,
-  onClick,
-}: ButtonProps) => {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.innerText = label;
-  btn.addEventListener('click', onClick);
-
-  btn.className = ['styled-button', `styled-button--${size}`, color && `styled-button--${color}`].join(' ');
-  return btn;
-};
-
-class ElmButton extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
   }
 
+  // lifecycle hook that runs when component is inserted into DOM
   connectedCallback() {
-    const { size, color, label, onClick } = this.getAttribute('props');
-    const btn = createButton({ size, color, label, onClick });
-    this.shadowRoot.appendChild(btn);
+    this.render
+  }
+
+  // we re-render anytime an attribute value changes, regardless of which attribute (name)
+  attributeChangedCallback(name, oldValue, newValue) {
+    if (oldValue !== newValue) {
+      this.render();
+    }
+  }
+
+  render() {
+    const label = this.getAttribute('label') || "";
+    const size = this.getAttribute('size') || 'small';
+
+    if (this.shadowRoot) {
+      this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          display: inline-block;
+        }
+        button {
+          font-size: ${size};
+        }
+      </style>
+      <button>${label}</button>
+      `;
+    }
   }
 }
 
-customElements.define('elm-button', ElmButton);
+customElements.define('web-button', WebButton);
