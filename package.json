@@ -26,11 +26,12 @@
     "@storybook/addon-essentials": "^7.0.7",
     "@storybook/addon-interactions": "^7.0.7",
     "@storybook/addon-links": "^7.0.7",
+    "@storybook/addon-mdx-gfm": "^7.0.22",
     "@storybook/blocks": "^7.0.7",
-    "@storybook/html": "^7.0.7",
-    "@storybook/html-webpack5": "^7.0.7",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/web-components-webpack5": "^7.0.22",
     "css-loader": "^6.7.3",
+    "elm-webpack-loader": "^8.0.0",
     "file-loader": "^6.2.0",
     "nodemon": "^2.0.19",
     "postcss-loader": "^7.2.4",
@@ -41,6 +42,7 @@
     "style-loader": "^3.3.2"
   },
   "dependencies": {
+    "lit": "^2.7.5",
     "storybook": "^7.0.7"
   }
 }
