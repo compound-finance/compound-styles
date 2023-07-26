@@ -49,3 +49,8 @@ $device-md: 60em;
 $device-lg: 82em;
 
 $column-gutter: 1.33rem;
+
+@mixin anchor(){
+  text-decoration: none;
+  cursor: pointer;
+}
